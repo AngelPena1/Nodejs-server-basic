@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-  res.json('Hola Mundo')
+  res.json('Hola Mundo, el nuevo resurgir')
 })
 
 app.listen(process.env.PORT || 8000, () => {
